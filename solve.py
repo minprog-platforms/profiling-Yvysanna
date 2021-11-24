@@ -34,7 +34,7 @@ def solve(sudoku: Sudoku) -> Union[Sudoku, None]:
         sudoku.unplace(x, y)
 
     return None
-
+    
 
 if __name__ == "__main__":
     # Create a command line argument parser
